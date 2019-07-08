@@ -2,28 +2,70 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="55461" started-at="2019-06-25T19:42:54Z" finished-at="2019-06-25T19:43:50Z">
+  <suite name="Default suite" duration-ms="87674" started-at="2019-07-08T14:26:52Z" finished-at="2019-07-08T14:28:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="55461" started-at="2019-06-25T19:42:54Z" finished-at="2019-06-25T19:43:50Z">
-      <class name="com.training.sanity.tests.RETC_038">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RETC_038@224edc67]" name="setUpBeforeClass" is-config="true" duration-ms="12" started-at="2019-06-26T01:12:54Z" finished-at="2019-06-26T01:12:54Z">
+    <test name="Default test" duration-ms="87674" started-at="2019-07-08T14:26:52Z" finished-at="2019-07-08T14:28:19Z">
+      <class name="com.training.regression.tests.RETC_065Test">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.RETC_065Test@4b9e13df]" name="setUpBeforeClass" is-config="true" duration-ms="20" started-at="2019-07-08T19:56:52Z" finished-at="2019-07-08T19:56:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_038@224edc67]" name="setUp" is-config="true" duration-ms="26265" started-at="2019-06-26T01:12:54Z" finished-at="2019-06-26T01:13:21Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.RETC_065Test@4b9e13df]" name="setUp" is-config="true" duration-ms="13607" started-at="2019-07-08T19:56:52Z" finished-at="2019-07-08T19:57:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.RETC_038@224edc67]" name="validLoginTest" duration-ms="28163" started-at="2019-06-26T01:13:21Z" finished-at="2019-06-26T01:13:49Z">
+        <test-method status="PASS" signature="RETCTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.RETC_065Test@4b9e13df]" name="RETCTest" duration-ms="72585" started-at="2019-07-08T19:57:06Z" data-provider="db-inputs" finished-at="2019-07-08T19:58:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminuser@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Launch]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Launch Vilas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Bangalore Vilas]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Vilas in Bangalore]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Vilas in Bangalore]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_038@224edc67]" name="tearDown" is-config="true" duration-ms="1001" started-at="2019-06-26T01:13:49Z" finished-at="2019-06-26T01:13:50Z">
+        </test-method> <!-- RETCTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.RETC_065Test@4b9e13df]" name="tearDown" is-config="true" duration-ms="1000" started-at="2019-07-08T19:58:18Z" finished-at="2019-07-08T19:58:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.RETC_038 -->
+      </class> <!-- com.training.regression.tests.RETC_065Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
